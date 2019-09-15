@@ -1,0 +1,28 @@
+{
+  "name": "cascade-flow",
+  "version": "0.0.1",
+  "description": "A simple CSS library for consistent styling",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debadipti/cascade-flow.git"
+  },
+  "author": "Debadipti Patra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/debadipti/cascade-flow/issues"
+  },
+  "homepage": "https://github.com/debadipti/cascade-flow#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {}
+}
