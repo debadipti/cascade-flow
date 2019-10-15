@@ -1,0 +1,18 @@
+// google roboto font
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  line-height: 1.3;
+  color: var(--dark-3);
+}
+
+a {
+  text-decoration: none;
+  &:focus,
+  &:hover,
+  &:active {
+    text-decoration: underline;
+  }
+}
