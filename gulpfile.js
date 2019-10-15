@@ -8,7 +8,7 @@ const rename = require('gulp-rename');
 sass.compiler = require('node-sass');
 
 function scss() {
-  return src('./scss/main.scss')
+  return src('./scss/master.scss')
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(
@@ -27,7 +27,7 @@ function scss() {
 exports.scss = scss;
 
 exports.watchScss = function() {
-  watch('./scss/main.scss', scss);
+  watch('./**/*.scss', scss);
 };
 
 exports.default = series(scss);
