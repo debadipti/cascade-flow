@@ -1,0 +1,17 @@
+// normalize CSS
+@import './normalize.scss';
+
+// variables
+@import './variables/--colors.scss';
+
+// typography
+@import './typography/--main.scss';
+
+// widgets
+@import './widgets/main.scss';
+
+// responsive breakpoints
+@import './breakpoints/--main.scss';
+
+// grid system
+@import './grid/--main.scss';
