@@ -1,12 +1,14 @@
-// black and white
-$black: #000000;
-$dark-3: #191919;
-$dark-2: #323232;
-$dark-1: #4c4c4c;
-$gray: #666666;
-$gray-1: #7f7f7f;
-$gray-2: #999999;
-$gray-3: #b2b2b2;
-$gray-4: #cccccc;
-$gray-5: #e5e5e5;
-$white: #ffffff;
+:root {
+  // black and white
+  --black: #000000;
+  --dark-3: #191919;
+  --dark-2: #323232;
+  --dark-1: #4c4c4c;
+  --gray: #666666;
+  --gray-1: #7f7f7f;
+  --gray-2: #999999;
+  --gray-3: #b2b2b2;
+  --gray-4: #cccccc;
+  --gray-5: #e5e5e5;
+  --white: #ffffff;
+}
