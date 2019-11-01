@@ -6,21 +6,30 @@ a.button {
   display: inline-block;
   font-style: normal;
   line-height: 1;
-  padding: 8px 10px;
+  padding: 0.5rem 0.8rem;
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
   text-decoration: none;
-  color: #111111;
-  border: 1px solid #aaaaaa;
+  color: var(--dark-3);
+  border: 1px solid var(--gray-3);
   border-radius: 4px;
-  background-color: #f8f8f8;
+  background-color: var(--gray-7);
+  box-sizing: border-box;
   &:hover {
     color: inherit;
-    background-color: #f0f0f0;
+    background-color: var(--gray-6);
   }
   &:focus,
   &:active {
     color: inherit;
     box-shadow: 0 0 0 0.1rem rgba(38, 143, 255, 0.404);
+  }
+  &:disabled {
+    cursor: default;
+    color: var(--gray-2);
+    border: 1px solid var(--gray-4);
+    &:hover {
+      background-color: var(--gray-7) !important;
+    }
   }
 }
